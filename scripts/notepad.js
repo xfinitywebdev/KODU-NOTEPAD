@@ -9,5 +9,5 @@ function save(){
 function get(){
     localStorage.getItem("storedNote")
     localStorage.getItem("storedTitle")
-    document.getElementById("openedNote").innerHTML = storedNote;
+    document.getElementById("savedNote").innerHTML = storedNote;
 }
